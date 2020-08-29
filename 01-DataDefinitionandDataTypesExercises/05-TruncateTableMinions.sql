@@ -1,0 +1,3 @@
+USE Minions100
+
+TRUNCATE TABLE Minions

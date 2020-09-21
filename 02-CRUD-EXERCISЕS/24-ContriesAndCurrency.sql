@@ -1,8 +1,5 @@
 USE [Geography]
 
-SELECT *
-  FROM [Countries]
-
 SELECT [CountryName], [CountryCode],
 CASE
     WHEN [CurrencyCode] = 'EUR' THEN 'Euro'
